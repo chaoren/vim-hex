@@ -2,7 +2,10 @@
 
 `vim -b file.dat` to edit file in hex mode.
 
-## Related
-[hexmode][1]
+![Hex view][1]
 
-[1]: https://github.com/fidian/hexmode
+## Related
+[hexmode][2]
+
+[1]: /img/hex.png
+[2]: https://github.com/fidian/hexmode
