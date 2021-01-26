@@ -5,6 +5,7 @@
 ![Hex view][1]
 
 ## Related
+
 [hexmode][2]
 
 [1]: /img/hex.png

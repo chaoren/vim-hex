@@ -1,7 +1,7 @@
 if exists('g:loaded_hex')
 	finish
 endif
-let g:loaded_hex = v:true
+let g:loaded_hex = 1
 
 augroup HEX
 	autocmd!
