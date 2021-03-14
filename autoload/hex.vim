@@ -11,7 +11,7 @@ endfunction
 
 function hex#writepre()
 	let b:hex_save_view = winsaveview()
-	let &l:endofline = getline('$')[10:48] =~ '0a *$'
+	let &l:endofline = getline('$')[10:48] =~# '0a *$'
 	execute 'wundo' fnameescape(undofile(expand('%')))
 	silent execute '%!xxd -revert'
 endfunction
