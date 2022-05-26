@@ -1,4 +1,8 @@
 function hex#readpost()
+	if execute(':verbose setlocal binary?') =~# '^\n  binary\n\tLast set from '
+		return
+	endif
+	let b:hex = 1
 	setlocal filetype=xxd
 	setlocal noundofile
 	let l:undolevels = &l:undolevels
